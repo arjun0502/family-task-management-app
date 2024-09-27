@@ -1,0 +1,115 @@
+/* Center the main app container */
+.App {
+  text-align: center;
+}
+
+/* Main title styling for the header */
+.main-title {
+  font-size: 50px; /* Larger font size for the main title */
+  margin-bottom: 30px;
+}
+
+/* Container for each section (Add New Task, Task List, Suggested Tasks) */
+.section-container {
+  width: 50%; /* Set a fixed width for a compact layout */
+  margin: 20px auto; /* Center the section container */
+  text-align: left;
+  font-size: 20px; /* Larger font size for the text within sections */
+}
+
+/* Section headings (e.g., Add New Task, Task List) */
+.section-container h2 {
+  margin-bottom: 10px; /* Space below section titles */
+}
+
+/* Flex container for inputs and button in the Add New Task section */
+.task-inputs {
+  display: flex;
+  justify-content: space-between; /* Distribute space between inputs and button */
+  gap: 5px; /* Small gap between elements */
+}
+
+/* Input field styling for adding a new task */
+input {
+  padding: 10px;
+  margin: 5px; /* Reduced margin for compact spacing */
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  margin: 5px; /* Reduced margin for tighter layout */
+  font-size: 18px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #21a1f1;
+}
+
+/* Unordered list styling for task and suggested task lists */
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+}
+
+/* Styling for each task and suggested task item */
+.task-item,
+.suggested-task-item {
+  display: flex; /* Flex layout for better alignment */
+  justify-content: space-between; /* Align name, status, and buttons */
+  align-items: center; /* Vertically center align items */
+  margin: 8px 0; /* Compact spacing between each task */
+}
+
+/* Container for task name and clickable task text */
+.task-info {
+  flex: 1; /* Allow task name to use available space */
+}
+
+/* Status badge container */
+.task-status {
+  margin-left: 10px; /* Small spacing before status */
+}
+
+/* Container for buttons in task and suggested task items */
+.task-button {
+  margin-left: 10px; /* Small spacing before buttons */
+}
+
+/* Status badge styling for tasks */
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Status colors for Pending and Completed tasks */
+.status-badge.pending {
+  background-color: #ffa500; /* Orange color for pending status */
+}
+
+.status-badge.completed {
+  background-color: #4caf50; /* Green color for completed status */
+}
+
+/* Styling for the cost of suggested tasks */
+.task-cost {
+  font-size: 22px; /* Larger font size for the cost display */
+  color: #ffd700; /* Gold color for cost */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Spacing adjustment for cost within suggested task items */
+.suggested-task-item .task-cost {
+  margin-left: 10px
+}
