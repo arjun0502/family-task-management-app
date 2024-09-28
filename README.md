@@ -44,9 +44,13 @@ The application uses Supabase with four tables:
 - **`GET /suggested-tasks`**: Fetch all suggested tasks.
 
 ## Frontend Features
-- **Task List View**: Displays all tasks wit
+- **Task List View**: Displays all tasks with their statuses.
+- **Suggested Tasks View**: Displays suggested tasks for upselling.
+- **Task Detail View**: Shows detailed information when a task is clicked.
+- **Add New Task Form**: Allows users to create a new task.
 
-## Setup Instructions
+
+## Setup and How to Run
 
 ### 1. Clone the Repository
 Clone the repository to your local machine:
