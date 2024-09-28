@@ -58,12 +58,13 @@ Clone the repository to your local machine:
 git clone https://github.com/arjun0502/family-task-management-app.git
 cd family-task-management-app
 
-### 2 Install Backend Dependencies
+### 2. Install Backend Dependencies
 Navigate to the `backend` folder and install the required packages:
 
 ```bash
 cd backend
 npm install
+```
 
 ### 3. Install Frontend Dependencies
 Navigate to the `frontend` folder and install the required packages:
@@ -71,12 +72,14 @@ Navigate to the `frontend` folder and install the required packages:
 ```bash
 cd ../frontend
 npm install
+```
 
 ### 4. Start Backend Server 
 
 ```bash
 cd ../backend
 node server.js
+```
 
 The server should now be running on http://localhost:3000.
 
@@ -85,7 +88,7 @@ The server should now be running on http://localhost:3000.
 ```bash
 cd ../frontend
 npm start
-
+```
 The frontend should now be running on http://localhost:3001.
 
 
